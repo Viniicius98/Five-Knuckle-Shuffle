@@ -21,6 +21,21 @@ body {
   height: 200px;
   background-color: #fff;
   color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#texto {
+  width: 40vh;
+  height: 30vh;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .entrada {
@@ -34,6 +49,13 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+.entrada > button {
+  width: 100px;
+  height: 20px;
+  margin-top: 3vh;
+  font-size: 12px;
+  font-weight: bold;
+}
 
 .saida {
   display: flex;
@@ -43,19 +65,5 @@ body {
 }
 button:hover {
   cursor: pointer;
-}
-
-#mensagem {
-  display: flex;
-  border-radius: 5px;
-  border: 2px solid #eee0e0;
-}
-
-#mensagem:hover {
-  border: 2px solid skyblue;
-  transition: 0.5s;
-}
-
-#result {
-  font-size: 22px;
+  background-color: gray;
 }
