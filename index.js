@@ -22,3 +22,9 @@ botao.addEventListener("click", () => {
   resultado.innerHTML = phrase;
   console.log(frase.value);
 });
+
+//Modo escuro
+function toggleDarkMode() {
+  let body = document.getElementsByTagName("body")[0];
+  body.classList.toggle("dark-mode");
+}

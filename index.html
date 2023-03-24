@@ -1,27 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" href="./images/shuffle.png" />
     <title>Embaralhador de Mensagens</title>
   </head>
   <body>
-    <header>
-      <h1>Embaralhe a seu dispor</h1>
+    <header id="topo">
+      <h1 class="title">Embaralhe a seu dispor</h1>
+      <button id="btn-dark" onclick="toggleDarkMode()">Modo escuro</button>
+
     </header>
-    <main>
-      <div class="entrada">
+
+    <main id="principal">
+      <section class="entrada">
         <label for="text">Embaralhe sua mensagem:</label>
         <textarea id="texto" rows="5" cols="40"></textarea>
         <button type="button">Embaralhar</button>
-      </div>
-      <div class="saida">
+
+        <img id="you-cant-see-me" src="./images/you-cant-see-me.gif" />
+      </section>
+
+      <section class="saida">
         <p id="result"></p>
-      </div>
+      </section>
     </main>
+
+    <footer id="rodape">
+      <p id="text-rodape">
+        &copy; 2023 Five Knuckle Shuffle. Todos os Direitos reservados.
+      </p>
+    </footer>
 
     <script src="index.js"></script>
   </body>
