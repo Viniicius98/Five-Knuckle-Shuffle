@@ -1,12 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+
 /* Estilo Padrão */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Cinzel", serif;
+  font-style: normal;
 }
 body {
-  background-color: #FFFDD0;
+  background-color: #fffdd0;
   background-attachment: fixed;
   overflow: hidden;
 }
@@ -15,30 +18,35 @@ body.dark-mode {
   color: #fff;
 }
 
-
 /* Estilo do Header */
 #topo {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   width: 100%;
   height: 9vh;
   justify-content: center;
   align-items: center;
 }
 .title {
-  font-size: 35px;
-  
+  font-size: 30px;
+  margin-left: 35%;
+  text-wrap: nowrap;
+  text-transform: capitalize;
 }
-#btn-dark{
+
+#btn-dark {
   width: 100px;
   height: 20px;
   margin-top: 2vh;
   margin-bottom: 1vh;
+  margin-left: 25%;
+  padding: 2%;
   font-size: 14px;
   font-weight: bold;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
 }
-
 
 /* Estilo do conteudo Pricipal */
 #principal {
@@ -62,7 +70,6 @@ body.dark-mode {
   width: 40vh;
   height: 30vh;
   padding: 5px;
-  
   text-align: center;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -82,6 +89,7 @@ button:hover {
   background-color: gray;
 }
 #you-cant-see-me {
+  display: none;
   width: 100px;
   height: 90px;
 }
@@ -101,7 +109,7 @@ button:hover {
   border-top-color: #000;
   text-align: center;
   font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Cinzel", serif;
   font-weight: bold;
   word-wrap: break-word;
 }
@@ -118,7 +126,6 @@ button:hover {
 }
 #text-rodape {
   font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Cinzel", serif;
   font-weight: bold;
 }
-
