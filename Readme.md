@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O Five Knuckle Shuffle é uma ferramenta simples que oferece uma maneira rápida e de embaralhar suas mensagens, adicionando uma camada de diversão e criatividade à sua comunicação. Inspirado no termo popularmente conhecido no contexto da luta livre profissional, o embaralhador de mensagens proporciona uma abordagem única para transformar suas palavras.
+O Five Knuckle Shuffle é uma ferramenta simples que oferece uma maneira rápida de embaralhar suas mensagens, adicionando uma camada de diversão e criatividade à sua comunicação. Inspirado no termo popularmente conhecido no contexto da luta livre profissional, o embaralhador de mensagens proporciona uma abordagem única para transformar suas palavras.
 
 ## Como Funciona
 
