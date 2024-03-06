@@ -1,0 +1,24 @@
+{
+  "name": "five-knuckle-shuffle",
+  "version": "1.0.0",
+  "description": "O Five Knuckle Shuffle é uma ferramenta simples que oferece uma maneira rápida e de embaralhar suas mensagens, adicionando uma camada de diversão e criatividade à sua comunicação. Inspirado no termo popularmente conhecido no contexto da luta livre profissional, o embaralhador de mensagens proporciona uma abordagem única para transformar suas palavras.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viniicius98/Five-Knuckle-Shuffle.git"
+  },
+  "author": "Vinicius Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viniicius98/Five-Knuckle-Shuffle/issues"
+  },
+  "homepage": "https://github.com/Viniicius98/Five-Knuckle-Shuffle#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.18.2"
+  }
+}

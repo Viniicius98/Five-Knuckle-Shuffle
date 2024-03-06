@@ -4,35 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="/public/css/style.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="icon" href="./images/shuffle.png" />
     <title>Embaralhador de Mensagens</title>
   </head>
+  <header class="p-3 bg-info text-dark rounded-bottom" id="topo">
+    <h1 class="text-center">Embaralhe a seu dispor</h1>
+  </header>
   <body>
-    <header id="topo">
-      <h1 class="title">Embaralhe a seu dispor</h1>
-      <button id="btn-dark">Modo escuro</button>
-    </header>
-
-    <main id="principal">
-      <section class="entrada">
-        <label for="text">Digite seu texto:</label>
-        <textarea id="texto" rows="5" cols="40"></textarea>
-        <button id="btn-embaralhar" type="button">Embaralhar</button>
-        <img id="you-cant-see-me" src="./images/you-cant-see-me.gif" />
-      </section>
-
-      <section class="saida">
-        <p id="result"></p>
-      </section>
-    </main>
-
-    <footer id="rodape">
-      <p id="text-rodape">
-        &copy; 2023 Five Knuckle Shuffle. Todos os Direitos reservados.
+    <div
+      class="w-auto h-50 mb-0 d-flex flex-column align-items-center bg-light"
+    >
+      <div
+        class="w-75 h-50 mt-5 d-flex flex-column align-items-center text-light bg-dark border border-black rounded"
+      >
+        <h3 class="text-center mt-3 mb-3">Digite o texto</h3>
+        <textarea
+          class="border border-dark rounded bg-light"
+          id="texto"
+          rows="5"
+          cols="40"
+        ></textarea>
+        <button
+          id="btn-embaralhar"
+          class="border border-dark btn btn-success btn-lg mt-3 mb-3"
+          type="button"
+        >
+          Embaralhar
+        </button>
+        <button
+          id="btn-limpar"
+          type="button"
+          class="border border-dark btn mt-3 mb-3 btn-secondary"
+        >
+          Limpar
+        </button>
+        <img
+          id="you-cant-see-me"
+          src="public/images/you-cant-see-me.gif"
+          alt="John Cena five Knuckle-Shuffle"
+          class="rounded mt-3 mb-3"
+        />
+      </div>
+      <div
+        class="border border-dark rounded w-25 mt-3 mb-3 d-flex text-center bg-light"
+      >
+        <p class="p-4 text-break" id="result"></p>
+      </div>
+    </div>
+    <footer class="w-auto bg-light align-items-center" style="height: 40px">
+      <p
+        id="text-rodape"
+        class="w-auto h-100 text-black-50 text-center align-items-center font-weight-bold"
+      >
+        &copy; 2024 Five Knuckle Shuffle. Todos os Direitos reservados.
       </p>
     </footer>
-
-    <script src="index.js"></script>
   </body>
+  <script src="public/js/index.js"></script>
 </html>
